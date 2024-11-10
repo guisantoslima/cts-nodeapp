@@ -1,5 +1,4 @@
 import './style.css'
-import Delete from '../../assets/delete.png'
 
 function Home() {
 
@@ -38,9 +37,7 @@ function Home() {
             <p>Email:     <span>{user.email}</span></p>
             <p>Password:  <span>{user.password}</span></p>
           </div>
-          <button>
-            <img src='Delete'/>
-          </button>
+          <button type='button'> x </button>
         </div>
       ))}
     </div>
