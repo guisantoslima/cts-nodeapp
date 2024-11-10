@@ -7,7 +7,8 @@
 
 h1 {
     color: #FFFFFF;
-    font-size: 32px;
+    font-size: 30px;
+    text-align: center;
 }
 
 form {
@@ -28,7 +29,7 @@ form {
         font-weight: bold;
         cursor: pointer;
         color: #FFFFFF;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     & button:hover {
@@ -60,10 +61,15 @@ form {
         color: #FFFFFF;
         font-weight: bold;
         margin-left: 10px;
+        font-size: 14px;
+        font-family: "Doto", serif;
     }
 
     & span {
+        padding-left: 5px;
+        font-size: 12px;
         font-weight: normal;
+        font-family: "Kode Mono", serif;
     }
 
     & button {
@@ -72,7 +78,7 @@ form {
         cursor: pointer;
         margin-right: 10px;
     }
-    
+
     & button:hover {
         opacity: 0.8;
     }

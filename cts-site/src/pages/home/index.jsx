@@ -1,8 +1,7 @@
 import './style.css'
-import Trash from '../../assets/trash.png'
+import Delete from '../../assets/delete.png'
 
 function Home() {
-
 
   const users = [{
     id: '2024110901',
@@ -40,12 +39,13 @@ function Home() {
             <p>Password:  <span>{user.password}</span></p>
           </div>
           <button>
-            <img src='{Trash}' />
+            <img src='Delete'/>
           </button>
         </div>
       ))}
     </div>
   )
 }
+
 
 export default Home
